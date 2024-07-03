@@ -1,0 +1,22 @@
+# Ignore Django migrations
+**/migrations/
+
+# Ignore local development settings
+**/settings/local.py
+
+# Ignore static files collected for production
+**/static/
+
+# Ignore media files (uploaded files)
+**/media/
+
+# Ignore database files
+**/db.sqlite3
+
+# Ignore other Django-specific files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# Ignore logs
+**/logs/
